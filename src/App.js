@@ -23,6 +23,9 @@ function App() {
         handleFilter();
     });
 
+    // Learn how to use useEffect properly to trigger handleFilter and then update Display component
+    // Learn how to use async await to trigger handleFilter and then updte Display component
+
     return (
         <div className="App">
             <label htmlFor="time">Choose a time</label>
